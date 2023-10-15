@@ -1,0 +1,26 @@
+{
+  "name": "sql-for-employees",
+  "version": "1.0.0",
+  "description": "A sql app for tracking employees",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kanabaki/sql-employee-12"
+  },
+  "author": "kanabaki",
+  "license": "ISC",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.6.1",
+    "sequelize": "^6.33.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.3"
+  }
+}
